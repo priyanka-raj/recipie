@@ -1,5 +1,7 @@
 import Login from './components/Login';
 import Recipes from './components/Recipes';
+import Edamams from './components/Edamams';
+
 import Contact from './components/Contact';
 
 import {db} from "./firebase.config"
@@ -59,6 +61,9 @@ function App() {
           <Route path="/login1" element={<Login/>}/>
           <Route path="/recipe1" element={<Recipes/>}/>
           <Route path="/contact" element={<Contact/>}/>
+          <Route path="/edamam" element={<Edamams/>}/>
+
+          
 
           </Routes>
 

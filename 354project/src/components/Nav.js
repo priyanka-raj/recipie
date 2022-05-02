@@ -40,6 +40,10 @@ style={{
                      <li class="nav-item">
                         <a href="/recipe1" class="nav-link">Recipes</a>
                      </li>
+                     
+                     <li class="nav-item">
+                        <a href="/edamam" class="nav-link">Edamam Recipes</a>
+                     </li>
                      <li class="nav-item">
                         <a href="/contact" class="nav-link">Contact</a>
                      </li>

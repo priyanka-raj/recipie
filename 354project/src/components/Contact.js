@@ -57,8 +57,8 @@ alert("Submitted Successfully");
 
   return (
     <div class="container">
-    <h1 className="mt-5 text-center">Contact Us</h1>
-    <div className='container mt-5 p-5'>
+    <h2 className="mt-5 text-center">Contact Us</h2>
+    <div className='container mt-5'>
     {/* <section class="p-5"> */}
 
        

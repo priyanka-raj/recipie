@@ -10,7 +10,7 @@ function Login() {
     
     // }}
     >
-      <h1>Welcome back! Please Login</h1>
+      <h2 className="mt-5 mb-5">Welcome back! Please Login</h2>
     
       <form className="login__form">
 

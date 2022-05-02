@@ -115,9 +115,9 @@ export const Recipes = () => {
   
     return (
       <div className="App">
-        <h1>My recipes</h1>
+        <h2 >My recipes</h2>
   
-        <button onClick={() => setPopupActive(!popupActive)}>Add recipe</button>
+        <button className="mt-5 mb-5"onClick={() => setPopupActive(!popupActive)}>Add recipe</button>
   
         <div className="recipes">
           { recipes.map((recipe, i) => (
