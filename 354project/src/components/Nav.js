@@ -35,7 +35,10 @@ style={{
                         <a href="/" class="nav-link">Home</a>
                      </li>
                      <li class="nav-item">
-                        <a href="/login1" class="nav-link">Login</a>
+                        <a href="/login" class="nav-link">Login</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="/register" class="nav-link">Register</a>
                      </li>
                      <li class="nav-item">
                         <a href="/recipe1" class="nav-link">Recipes</a>
