@@ -32,7 +32,7 @@ style={{
                <div class="collapse navbar-collapse"id="navbarMenu">
                   <ul class="navbar-nav ms-auto">
                      <li class="nav-item">
-                        <a href="/" class="nav-link">Home</a>
+                        <a href="/home" class="nav-link">Home</a>
                      </li>
                      <li class="nav-item">
                         <a href="/login" class="nav-link">Login</a>

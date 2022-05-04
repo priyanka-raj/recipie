@@ -31,6 +31,21 @@ const Contact = () => {
 
     const postData = async(e) => {
         e.preventDefault();
+
+
+        if (!name) {
+          alert('Please add your name')
+          return
+        }
+        if (!email) {
+          alert('Please add your email')
+          return
+        }
+        if (!message) {
+          alert('Please add your message')
+          return
+        }
+
       const res = await fetch("https://it354recipie-default-rtdb.firebaseio.com/contacts.json",{
         mode: 'no-cors',
       method: "POST",

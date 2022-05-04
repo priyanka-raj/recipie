@@ -60,7 +60,7 @@ function App() {
   useEffect(() => {
     let authToken = sessionStorage.getItem('Auth Token')
 
-    if (authToken) {
+    if (!authToken) {
       navigate('/home')
     }
   }, [])
